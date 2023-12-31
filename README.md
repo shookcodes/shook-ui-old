@@ -1,47 +1,47 @@
-# Astro Starter Kit: Minimal
+# Sprinklez UI
 
-```sh
-npm create astro@latest -- --template minimal
-```
+## Introduction 👋
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+Sprinkles UI is a component library that can be used across React, NextJS, Vue, and Svelte frameworks. Add pops of color to your project with themed components, or use your own color themes for components.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Installation
 
-## 🚀 Project Structure
+### React-Based Projects
 
-Inside of your Astro project, you'll see the following folders and files:
+For react and React-based frameworks (e.g. NextJS), install the React package.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+**npm:**
+`npm i @sprinkles-ui/react`
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+**yarn:**
+`yarn add @sprinkles-ui/react`
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Vue Projects
 
-Any static assets, like images, can be placed in the `public/` directory.
+For Vue 3 projects (note that Vue 2 is not supported), install the Vue package:
 
-## 🧞 Commands
+**npm:**
+`npm i @sprinkles-ui/vue`
 
-All commands are run from the root of the project, from a terminal:
+**yarn:**
+`yarn add @sprinkles-ui/vue`
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Svelte Projects
 
-## 👀 Want to learn more?
+For Svelte projects, install the Svelte package:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**npm:**
+`npm i @sprinkles-ui/svelte`
+
+**yarn:**
+`yarn add @sprinkles-ui/svelte`
+
+### Multiple Frameworks
+
+If your project requires use of multiple frameworks, install the root package, where you can then import components from any of the folders.
+
+**npm:**
+`npm i @sprinkles-ui`
+
+**yarn:**
+`yarn add @sprinkles-ui`
