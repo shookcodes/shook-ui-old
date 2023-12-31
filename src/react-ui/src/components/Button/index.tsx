@@ -1,3 +1,3 @@
-const Button = () => <button>I'm a button</button>;
+const Button = () => <button className="sprinklez-btn">I'm a button</button>;
 
 export default Button;
