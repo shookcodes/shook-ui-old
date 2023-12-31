@@ -2,6 +2,8 @@
 
 ## Introduction 👋
 
+THIS PACKAGE IS STILL IN DEVELOPMENT AND NOT READY FOR USE.
+
 Sprinkles UI is a component library that can be used across React, NextJS, Vue, and Svelte frameworks. Add pops of color to your project with themed components, or use your own color themes for components.
 
 ## Installation
