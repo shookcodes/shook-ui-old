@@ -1,0 +1,10 @@
+@mixin center-btn-bg {
+  position: absolute;
+  right: -10%;
+  top: 0%;
+  width: 120%;
+  top: 50%;
+  translate: 0% -50%;
+  aspect-ratio: 1 /1;
+}
+  // @function getWidth()

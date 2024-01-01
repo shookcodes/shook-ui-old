@@ -1,9 +1,12 @@
+// default theme
 $iceBlue: #97f9f9;
 $hotPink: #f564a9;
+$peach: #f89c83;
 $sunglow: #fbcf60;
 $snow: #f9f2f1;
-$darkPurple: #1e102d;
+$darkPurple: #46256A;
 $darkGray: #2d2d2d;
 
-.sprinkles-btn {
-}
+$default-linear-gradient: linear-gradient(158deg, rgba($peach,0.8) 0%, rgba($hotPink,0.7) 50%, rgba($iceBlue,0.8) 100%);
+
+$default-radial-gradient: radial-gradient(circle, rgba($hotPink,1) 0%, rgba($peach,1) 44%, rgba($iceBlue,1) 95%);

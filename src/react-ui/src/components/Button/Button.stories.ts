@@ -14,6 +14,12 @@ const meta = {
     onClick: { action: 'clicked' },
   },
   args: { primary: false }, // default value
+  decorators: [
+    (story) => ({
+      components: { story },
+      template: '<div style="margin: 3em;"><story /></div>',
+    }),
+  ],
 } satisfies Meta<typeof Button>;
 
 export default meta;

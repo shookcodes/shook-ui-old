@@ -1,0 +1,42 @@
+@import './variables.scss';
+@import './utils.scss';
+@import './animations.scss';
+
+.sprinklez-btn {
+position: relative;
+    background: $darkPurple;
+
+    overflow: hidden;
+    width: auto;
+
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: "Fira Sans", sans-serif;
+    color: $snow;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+
+    &::before {
+         content: '';
+        @include center-btn-bg;
+        position: absolute;
+        width: 200%;
+        top: -10%;
+        left: -10%;
+        background: $default-linear-gradient;
+         z-index: -1;
+         transition: rotate 2s linear infinite;
+         animation: transform-rotate-bg 6s linear infinite paused;
+    }
+
+    &:hover {
+        background: transparent;
+        color: $darkPurple;
+        font-weight: 600;
+        &::before {
+            animation-play-state: running;
+        }
+    }
+}
