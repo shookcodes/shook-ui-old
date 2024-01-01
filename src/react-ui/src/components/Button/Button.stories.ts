@@ -13,7 +13,7 @@ const meta = {
     backgroundColor: { control: 'color' },
     onClick: { action: 'clicked' },
   },
-  args: { primary: false }, // default value
+  args: { primary: false, children: "Click Me" }, // default value
   decorators: [
     (story) => ({
       components: { story },
